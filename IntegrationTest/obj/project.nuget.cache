@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bsk5iGzkOLM=",
+  "success": true,
+  "projectFilePath": "/Users/bdaomontero/Desktop/bdao/blockchain/test/neth-test/nethmud-test/IntegrationTest/IntegrationTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/bdaomontero/.nuget/packages/adraffy.ensnormalize/0.1.5/adraffy.ensnormalize.0.1.5.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nbitcoin.secp256k1/3.1.1/nbitcoin.secp256k1.3.1.1.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.abi/4.21.4/nethereum.abi.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.accounts/4.21.4/nethereum.accounts.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.blockchainprocessing/4.21.4/nethereum.blockchainprocessing.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.contracts/4.21.4/nethereum.contracts.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.hex/4.21.4/nethereum.hex.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.jsonrpc.client/4.21.4/nethereum.jsonrpc.client.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.jsonrpc.rpcclient/4.21.4/nethereum.jsonrpc.rpcclient.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.keystore/4.21.4/nethereum.keystore.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.merkle.patricia/4.21.4/nethereum.merkle.patricia.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.model/4.21.4/nethereum.model.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.rlp/4.21.4/nethereum.rlp.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.rpc/4.21.4/nethereum.rpc.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.signer/4.21.4/nethereum.signer.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.signer.eip712/4.21.4/nethereum.signer.eip712.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.util/4.21.4/nethereum.util.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.web3/4.21.4/nethereum.web3.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/portable.bouncycastle/1.8.2/portable.bouncycastle.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}
