@@ -5,25 +5,14 @@
             {
                 "baseNamespace": "NethMud.Contracts.NethMudTest.Systems",
                 "basePath": "codeGenNodeTest/GeneratorSets/Example2/NethMud.Contracts.NethMudTest.Systems",
-                "codeGenLang": 0,  // Code generation for C#
+                "codeGenLang": 0,
                 "generatorType": "ContractDefinition"
             },
             {
                 "baseNamespace": "NethMud.Contracts.NethMudTest.Systems",
                 "basePath": "codeGenNodeTest/GeneratorSets/Example2/NethMud.Contracts.NethMudTest.Systems",
                 "codeGenLang": 0,
-                "generatorType": "MudExtendedService",  // Generates Mud services
-                "mudNamespace": "nethmudtest"
-            }
-        ]
-    },
-    {
-        "paths": ["mud.config.ts"],
-        "generatorConfigs": [
-            {
-                "baseNamespace": "NethMud.Contracts.NethMudTest.Tables",
-                "basePath": "codeGenNodeTest/GeneratorSets/Example2/NethMud.Contracts.NethMudTest.Tables",
-                "generatorType": "MudTables",  // Generates Mud tables
+                "generatorType": "MudExtendedService",
                 "mudNamespace": "nethmudtest"
             }
         ]
