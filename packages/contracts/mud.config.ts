@@ -9,5 +9,12 @@ export default defineWorld({
       },
       key: [],
     },
+    Item: {
+      key: ["id"],
+      schema: {
+        id: "uint32",
+        value: "uint32",
+      },
+    },
   },
 });

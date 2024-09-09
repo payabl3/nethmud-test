@@ -5,10 +5,15 @@ namespace Nethereum.Mud.IntegrationTests {
 {
     public static async Task Main(string[] args)
     {
-        Console.WriteLine("Calling Program");
+        Console.WriteLine("Calling Service");
         var worldServiceTests = new WorldServiceTests();
-        await worldServiceTests.ShouldGetRecordUsingTable();
-        
+        // await worldServiceTests.ShouldGetRecordUsingTable();
+        await worldServiceTests.ShouldGetAllChanges();
+
+        Console.WriteLine("Calling World Deployment Tests");
+        var worldDeploymentTests = new WorldDeploymentTests();
+        await worldDeploymentTests.ShouldDeployWorldContractRegisterTablesSystemAndInteractSimplified();
+        Console.WriteLine("End of Program");
     }
 }
 }
