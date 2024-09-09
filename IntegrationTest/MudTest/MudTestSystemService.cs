@@ -1,8 +1,9 @@
-using NethMud.Contracts.Core.Systems;
-using NethMud.IntegrationTest.MudTest.Systems.IncrementSystem;
+using Nethereum.Mud.Contracts.Core.Systems;
+// using Nethereum.Mud.IntegrationTest.MudTest.Systems.IncrementSystem;
+using NethMud.Contracts.NethMudTest.Systems.IncrementSystem;
 using Nethereum.Web3;
 
-namespace NethMud.IntegrationTest.MudTest
+namespace Nethereum.Mud.IntegrationTest.MudTest
 {
     public class MudTestSystemServices : SystemsServices
     {

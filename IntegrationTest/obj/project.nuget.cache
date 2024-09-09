@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bsk5iGzkOLM=",
+  "dgSpecHash": "ib8cyvxmjiU=",
   "success": true,
   "projectFilePath": "/Users/bdaomontero/Desktop/bdao/blockchain/test/neth-test/nethmud-test/IntegrationTest/IntegrationTest.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,8 @@
     "/Users/bdaomontero/.nuget/packages/nethereum.keystore/4.21.4/nethereum.keystore.4.21.4.nupkg.sha512",
     "/Users/bdaomontero/.nuget/packages/nethereum.merkle.patricia/4.21.4/nethereum.merkle.patricia.4.21.4.nupkg.sha512",
     "/Users/bdaomontero/.nuget/packages/nethereum.model/4.21.4/nethereum.model.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.mud/4.21.4/nethereum.mud.4.21.4.nupkg.sha512",
+    "/Users/bdaomontero/.nuget/packages/nethereum.mud.contracts/4.21.4/nethereum.mud.contracts.4.21.4.nupkg.sha512",
     "/Users/bdaomontero/.nuget/packages/nethereum.rlp/4.21.4/nethereum.rlp.4.21.4.nupkg.sha512",
     "/Users/bdaomontero/.nuget/packages/nethereum.rpc/4.21.4/nethereum.rpc.4.21.4.nupkg.sha512",
     "/Users/bdaomontero/.nuget/packages/nethereum.signer/4.21.4/nethereum.signer.4.21.4.nupkg.sha512",

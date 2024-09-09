@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Nethereum.Mud" Version="4.21.4" />
+    <PackageReference Include="Nethereum.Mud.Contracts" Version="4.21.4" />
     <PackageReference Include="Nethereum.Web3" Version="4.21.4" />
   </ItemGroup>
 

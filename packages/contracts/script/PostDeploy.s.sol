@@ -6,6 +6,7 @@ import { console } from "forge-std/console.sol";
 import { StoreSwitch } from "@latticexyz/store/src/StoreSwitch.sol";
 
 import { IWorld } from "../src/codegen/world/IWorld.sol";
+import { Counter } from "../src/codegen/index.sol";
 
 contract PostDeploy is Script {
   function run(address worldAddress) external {
@@ -23,6 +24,8 @@ contract PostDeploy is Script {
     // Call increment on the world via the registered function selector
     // uint32 newValue = IWorld(worldAddress).nethmudtest__increment();
     // console.log("Increment via IWorld:", newValue);
+
+    Counter.set(1);
 
     vm.stopBroadcast();
   }

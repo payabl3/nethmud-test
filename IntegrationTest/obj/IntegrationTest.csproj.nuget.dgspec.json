@@ -43,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Nethereum.Mud": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Mud.Contracts": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
             "Nethereum.Web3": {
               "target": "Package",
               "version": "[4.21.4, )"

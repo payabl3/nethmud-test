@@ -184,6 +184,33 @@
           "lib/net8.0/Nethereum.Model.dll": {}
         }
       },
+      "Nethereum.Mud/4.21.4": {
+        "type": "package",
+        "dependencies": {
+          "Nethereum.Web3": "4.21.4",
+          "Newtonsoft.Json": "[11.0.2, 14.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/Nethereum.Mud.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Nethereum.Mud.dll": {}
+        }
+      },
+      "Nethereum.Mud.Contracts/4.21.4": {
+        "type": "package",
+        "dependencies": {
+          "Nethereum.Mud": "4.21.4",
+          "Nethereum.Web3": "4.21.4",
+          "Newtonsoft.Json": "[11.0.2, 14.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/Nethereum.Mud.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Nethereum.Mud.Contracts.dll": {}
+        }
+      },
       "Nethereum.RLP/4.21.4": {
         "type": "package",
         "dependencies": {
@@ -610,6 +637,48 @@
         "nethereum.model.nuspec"
       ]
     },
+    "Nethereum.Mud/4.21.4": {
+      "sha512": "G5bJId8QFLNoKOr04p+9J3Q1jjZRMCcX/zMDsNeWHFr3pvISqOH7gax+2jHlndyWILCGtJUI/3JsqP6TVWgBjQ==",
+      "type": "package",
+      "path": "nethereum.mud/4.21.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "images/logo64x64.png",
+        "lib/net451/Nethereum.Mud.dll",
+        "lib/net461/Nethereum.Mud.dll",
+        "lib/net5.0/Nethereum.Mud.dll",
+        "lib/net8.0/Nethereum.Mud.dll",
+        "lib/netcoreapp2.1/Nethereum.Mud.dll",
+        "lib/netcoreapp3.1/Nethereum.Mud.dll",
+        "lib/netstandard1.1/Nethereum.Mud.dll",
+        "lib/netstandard2.0/Nethereum.Mud.dll",
+        "nethereum.mud.4.21.4.nupkg.sha512",
+        "nethereum.mud.nuspec"
+      ]
+    },
+    "Nethereum.Mud.Contracts/4.21.4": {
+      "sha512": "vqDdfjulkG092LSmMzIDu9L80a2xraM86pSUSuoyHuWaBhjVdAo5rySH8bYGxA/T3A6v1GTAmwtc4eFa8WYu/Q==",
+      "type": "package",
+      "path": "nethereum.mud.contracts/4.21.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "images/logo64x64.png",
+        "lib/net451/Nethereum.Mud.Contracts.dll",
+        "lib/net461/Nethereum.Mud.Contracts.dll",
+        "lib/net5.0/Nethereum.Mud.Contracts.dll",
+        "lib/net8.0/Nethereum.Mud.Contracts.dll",
+        "lib/netcoreapp2.1/Nethereum.Mud.Contracts.dll",
+        "lib/netcoreapp3.1/Nethereum.Mud.Contracts.dll",
+        "lib/netstandard1.1/Nethereum.Mud.Contracts.dll",
+        "lib/netstandard2.0/Nethereum.Mud.Contracts.dll",
+        "nethereum.mud.contracts.4.21.4.nupkg.sha512",
+        "nethereum.mud.contracts.nuspec"
+      ]
+    },
     "Nethereum.RLP/4.21.4": {
       "sha512": "XNZoqa4sIBjT/o/5fdMRKDab5iZcUhi2UJ3s47015vpqKJOTLAy2GR9bAkbnjt3O3r1xUNyMjpPkCyisRSv52g==",
       "type": "package",
@@ -790,6 +859,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Nethereum.Mud >= 4.21.4",
+      "Nethereum.Mud.Contracts >= 4.21.4",
       "Nethereum.Web3 >= 4.21.4"
     ]
   },
@@ -835,6 +906,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Nethereum.Mud": {
+            "target": "Package",
+            "version": "[4.21.4, )"
+          },
+          "Nethereum.Mud.Contracts": {
+            "target": "Package",
+            "version": "[4.21.4, )"
+          },
           "Nethereum.Web3": {
             "target": "Package",
             "version": "[4.21.4, )"
