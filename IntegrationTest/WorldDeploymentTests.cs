@@ -7,7 +7,6 @@ using Nethereum.Mud.IntegrationTest.MudTest;
 
 namespace Nethereum.Mud.IntegrationTests
 {
-
     public class WorldDeploymentTests
     {
         public async Task ShouldDeployWorldContractRegisterTablesSystemAndInteractSimplified()

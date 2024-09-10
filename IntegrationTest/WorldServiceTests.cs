@@ -41,7 +41,7 @@ namespace Nethereum.Mud.IntegrationTests
      */
     public class WorldServiceTests
     {
-        public const string WorldAddress = "0x77a881a6239b77a204491db17632908ad1f76376";
+        public const string WorldAddress = "0x9bd09aea0b57c2b1cfda911e4ec0f2009e1a3329";
         public const string WorldUrl = "http://localhost:8545";
         //using default anvil private key
         public const string OwnerPK = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
@@ -140,9 +140,21 @@ namespace Nethereum.Mud.IntegrationTests
             
             foreach (var result in itemTableResults)
             {
-                Console.WriteLine(result.Keys.Id);
-                Console.WriteLine(result.Values.Value);
+                Console.WriteLine("item table id: " + result.Keys.Id);
+                Console.WriteLine("item table value:" + result.Values.Value);
             }
+
+        }
+
+        public async Task ShouldGetRecordTableItem()
+        {
+            var worldService = GetWorldService();
+            var returnedItem = new ItemTableRecord();
+            returnedItem.Keys.Id = 2;
+            returnedItem = await worldService.GetRecordTableQueryAsync<ItemTableRecord, ItemTableRecord.ItemKey, ItemTableRecord.ItemValue>(returnedItem);
+            Console.WriteLine("Getting data of Item table via id");
+            Console.WriteLine("id: " + returnedItem.Keys.Id);
+            Console.WriteLine("value: " + returnedItem.Values.Value);
 
         }
     }

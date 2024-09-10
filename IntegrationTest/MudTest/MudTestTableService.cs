@@ -20,7 +20,7 @@ namespace Nethereum.Mud.IntegrationTest.MudTest
             CounterTableService = new CounterTableService(web3, contractAddress);
             ItemTableService = new ItemTableService(web3, contractAddress);
             
-            TableServices = new List<ITableServiceBase> { CounterTableService };
+            TableServices = new List<ITableServiceBase> { CounterTableService, ItemTableService };
         }
     }
 }

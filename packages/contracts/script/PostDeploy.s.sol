@@ -28,6 +28,7 @@ contract PostDeploy is Script {
 
     Counter.set(1);
     Item.set(1, 2);
+    Item.set(2, 3);
 
     vm.stopBroadcast();
   }

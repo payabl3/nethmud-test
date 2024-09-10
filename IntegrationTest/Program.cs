@@ -9,6 +9,7 @@ namespace Nethereum.Mud.IntegrationTests {
         var worldServiceTests = new WorldServiceTests();
         // await worldServiceTests.ShouldGetRecordUsingTable();
         await worldServiceTests.ShouldGetAllChanges();
+        await worldServiceTests.ShouldGetRecordTableItem();
 
         Console.WriteLine("Calling World Deployment Tests");
         var worldDeploymentTests = new WorldDeploymentTests();

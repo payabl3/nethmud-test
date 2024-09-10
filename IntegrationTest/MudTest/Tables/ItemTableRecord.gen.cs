@@ -1,9 +1,8 @@
 using Nethereum.ABI.FunctionEncoding.Attributes;
 using Nethereum.Mud;
 using Nethereum.Mud.Contracts.Core.Tables;
+using Nethereum.RPC.Eth.DTOs;
 using Nethereum.Web3;
-using System.Collections.Generic;
-using System.Numerics;
 
 namespace NethMud.Contracts.NethMudTest.Tables
 {
@@ -11,11 +10,12 @@ namespace NethMud.Contracts.NethMudTest.Tables
     { 
         public ItemTableService(IWeb3 web3, string contractAddress) : base(web3, contractAddress) {}
     
-        public virtual Task<ItemTableRecord> GetTableRecordAsync(uint id)
+        public virtual Task<ItemTableRecord> GetTableRecordAsync(uint id, BlockParameter blockParameter = null)
         {
+            Console.WriteLine("id: " + id);
             var key = new ItemTableRecord.ItemKey();
             key.Id = id;
-            return GetTableRecordAsync(key);
+            return GetTableRecordAsync(key, blockParameter);
         }
     }
     
